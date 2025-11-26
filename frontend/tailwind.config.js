@@ -20,7 +20,8 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        sans: ["Inter", ...fontFamily.sans],
+        sans: ["DM Sans", ...fontFamily.sans], // Body font - modern, clean
+        heading: ["Outfit", ...fontFamily.sans], // Heading font - modern, geometric
       },
       colors: {
         border: "hsl(var(--border))",
